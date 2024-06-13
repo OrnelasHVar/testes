@@ -96,4 +96,4 @@ curl -X POST "https://<your-api-url>/search" -H "accept: application/json" -H "C
 ## Considerações Finais
 Certifique-se de ajustar ou remover o arquivo `bigquery.tf` após a primeira execução para evitar a exclusão acidental dos dados no BigQuery. Para atualizações futuras, siga os passos descritos na seção de Deploy.
 
-Para dúvidas ou problemas, sinta-se à vontade para abrir uma issue ou entrar em contato.
+Para dúvidas ou problemas, sinta-se à vontade para entrar em contato.
