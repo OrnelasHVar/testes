@@ -51,9 +51,9 @@ Certifique-se de que você possui as permissões necessárias no Google Cloud e 
   - `run.googleapis.com/revision-timeout-sec`: Tempo máximo de espera por nova requisição.
   - `image`: Imagem do Artifact Registry usada pelo Cloud Run.
   - `memory`, `cpu`: Memória e CPUs por instância.
-   - timeoutSeconds: Tempo que o sistema aguardará a resposta de uma verificação antes de considerar que a verificação falhou.
-   - periodSeconds: Especifica a frequência com que a verificação será realizada.
-   - failureThreshold : Especifica o número de tentativas de verificação consecutivas que devem falhar antes que o sistema considere que o contêiner não está funcionando corretamente e tome uma ação.
+  - `timeoutSeconds`: Tempo que o sistema aguardará a resposta de uma verificação antes de considerar que a verificação falhou.
+  - `periodSeconds`: Especifica a frequência com que a verificação será realizada.
+  - `failureThreshold`: Especifica o número de tentativas de verificação consecutivas que devem falhar antes que o sistema considere que o contêiner não está funcionando corretamente e tome uma ação.
 
 - `skaffold.yaml`: Configure o Skaffold:
   - `image`: Imagem no Artifact Registry.
